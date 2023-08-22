@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this workshop, you'll be provided this GitHub repo with details for a full operational CRUD API that uses Express.JS, PostgreSQL, and other technologies that you've been trained on.
+In this workshop, you'll be provided this GitHub repo with details for a full operational FSA that uses Express.JS, and other technologies that you've been trained on.
 
 ## Problems to Solve
 
