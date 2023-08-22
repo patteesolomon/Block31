@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+/* Add a fun and playful font */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Add a playful hover effect to links */
+a:hover {
+    color: #F48FB1;
+    text-decoration: none;
+}
+
+/* Create a fun and colorful button */
+.button {
+    background-color: #F48FB1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Add a subtle animation to the button */
+.button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* Adjust font sizes and padding for iPad screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Adjust padding and margin for images */
+    img {
+        padding: 8px;
+        margin: 8px;
+    }
+
+    /* Adjust button padding */
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Create a colorful background */
+body {
+    background-color: #F8BBD0;
+    background-image: linear-gradient(315deg, #F8BBD0 0%, #3FC3C9 74%);
+}
+
+/* Add a border to images and give them a polaroid effect */
+img {
+    border: 5px solid white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(-3deg);
+    max-width: 100%;
+}
+
+/* Create a fun and colorful button */
+.button {
+    background-color: #F48FB1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Add a subtle animation to the button */
+.button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* Adjust font sizes for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Reduce padding and margin for images */
+    img {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    /* Adjust button padding */
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
